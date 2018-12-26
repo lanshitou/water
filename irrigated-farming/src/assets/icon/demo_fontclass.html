@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>IconFont</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="iconfont.css">
+</head>
+<body>
+    <div class="main markdown">
+        <h1>IconFont 图标</h1>
+        <ul class="icon_lists clear">
+            
+                <li>
+                <i class="icon myIconfont myIcon-shebeileixing"></i>
+                    <div class="name">设备类型</div>
+                    <div class="fontclass">.myIcon-shebeileixing</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-wendchuanganqi"></i>
+                    <div class="name">温度传感器</div>
+                    <div class="fontclass">.myIcon-wendchuanganqi</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-sensor-co2"></i>
+                    <div class="name">CO2传感器</div>
+                    <div class="fontclass">.myIcon-sensor-co2</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-turangwenshidu-"></i>
+                    <div class="name">土壤温湿度</div>
+                    <div class="fontclass">.myIcon-turangwenshidu-</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-zhinengjiajuicon-chushiqi"></i>
+                    <div class="name">智能家居icon-除湿器</div>
+                    <div class="fontclass">.myIcon-zhinengjiajuicon-chushiqi</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-sensor-guangzhao"></i>
+                    <div class="name">光照度传感器</div>
+                    <div class="fontclass">.myIcon-sensor-guangzhao</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-diandongfa"></i>
+                    <div class="name">电动阀</div>
+                    <div class="fontclass">.myIcon-diandongfa</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-WSD"></i>
+                    <div class="name">温湿度传感器</div>
+                    <div class="fontclass">.myIcon-WSD</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-Fan_01"></i>
+                    <div class="name">风机</div>
+                    <div class="fontclass">.myIcon-Fan_01</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-qitichuanganqi"></i>
+                    <div class="name">气体传感器</div>
+                    <div class="fontclass">.myIcon-qitichuanganqi</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-shuibeng"></i>
+                    <div class="name">水泵</div>
+                    <div class="fontclass">.myIcon-shuibeng</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-kongzhiqi"></i>
+                    <div class="name">控制器</div>
+                    <div class="fontclass">.myIcon-kongzhiqi</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-jiareqi"></i>
+                    <div class="name">加热器</div>
+                    <div class="fontclass">.myIcon-jiareqi</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-guangzhaochuanganqi"></i>
+                    <div class="name">光照传感器</div>
+                    <div class="fontclass">.myIcon-guangzhaochuanganqi</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-kongqiwenshiduchuanganqi"></i>
+                    <div class="name">空气温湿度传感器</div>
+                    <div class="fontclass">.myIcon-kongqiwenshiduchuanganqi</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-deng"></i>
+                    <div class="name">灯</div>
+                    <div class="fontclass">.myIcon-deng</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-shebeileixingshu"></i>
+                    <div class="name">设备类型数</div>
+                    <div class="fontclass">.myIcon-shebeileixingshu</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-diancifa"></i>
+                    <div class="name">电磁阀</div>
+                    <div class="fontclass">.myIcon-diancifa</div>
+                </li>
+            
+                <li>
+                <i class="icon myIconfont myIcon-kongzhiqi_shuikoudiancifa-copy"></i>
+                    <div class="name">控制器_水口电磁阀</div>
+                    <div class="fontclass">.myIcon-kongzhiqi_shuikoudiancifa-copy</div>
+                </li>
+            
+        </ul>
+
+        <h2 id="font-class-">font-class引用</h2>
+        <hr>
+
+        <p>font-class是unicode使用方式的一种变种，主要是解决unicode书写不直观，语意不明确的问题。</p>
+        <p>与unicode使用方式相比，具有如下特点：</p>
+        <ul>
+        <li>兼容性良好，支持ie8+，及所有现代浏览器。</li>
+        <li>相比于unicode语意明确，书写更直观。可以很容易分辨这个icon是什么。</li>
+        <li>因为使用class来定义图标，所以当要替换图标时，只需要修改class里面的unicode引用。</li>
+        <li>不过因为本质上还是使用的字体，所以多色图标还是不支持的。</li>
+        </ul>
+        <p>使用步骤如下：</p>
+        <h3 id="-fontclass-">第一步：引入项目下面生成的fontclass代码：</h3>
+
+
+        <pre><code class="lang-js hljs javascript"><span class="hljs-comment">&lt;link rel="stylesheet" type="text/css" href="./iconfont.css"&gt;</span></code></pre>
+        <h3 id="-">第二步：挑选相应图标并获取类名，应用于页面：</h3>
+        <pre><code class="lang-css hljs">&lt;<span class="hljs-selector-tag">i</span> <span class="hljs-selector-tag">class</span>="<span class="hljs-selector-tag">myIconfont</span> <span class="hljs-selector-tag">myIcon-xxx</span>"&gt;&lt;/<span class="hljs-selector-tag">i</span>&gt;</code></pre>
+        <blockquote>
+        <p>"myIconfont"是你项目下的font-family。可以通过编辑项目查看，默认是"iconfont"。</p>
+        </blockquote>
+    </div>
+</body>
+</html>
